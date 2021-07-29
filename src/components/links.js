@@ -14,6 +14,9 @@ class Links extends React.Component {
 					<li>
 						<Link to="/">Home</Link>
 					</li>
+          <li>
+            <Link to="/user/andy">User</Link>
+          </li>
 					<li>
 						<Link to="/about">About</Link>
 					</li>

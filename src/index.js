@@ -7,6 +7,7 @@ import './index.scss';
 import Home from './components/home'
 import About from './components/about'
 import Topics from './components/topics'
+import User from './components/user'
 
 ReactDOM.render(
 	<BrowserRouter>
@@ -15,6 +16,7 @@ ReactDOM.render(
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/topics" component={Topics} />
+      <Route path="/user/:name" component={User} />
 		</Container>
 	</BrowserRouter>,
 	document.getElementById('app')
