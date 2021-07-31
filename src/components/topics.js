@@ -11,7 +11,7 @@ class Topics extends React.Component {
       <div>
         <Links />
         <h1>
-        Topics
+          Topics
         </h1>
       </div>
     )
