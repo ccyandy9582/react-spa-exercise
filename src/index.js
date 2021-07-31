@@ -9,6 +9,9 @@ import Home from './components/home'
 import About from './components/about'
 import Topics from './components/topics'
 import User from './components/user'
+import Start from './components/start';
+import Timer from './components/timer';
+import TimeUp from './components/timeUp';
 
 const routes = [
   {
@@ -27,6 +30,18 @@ const routes = [
   {
     path: '/user/:name',
     component: User
+  },
+  {
+    path: '/timer',
+    component: Timer
+  },
+  {
+    path: '/timeStart',
+    component: Start
+  },
+  {
+    path: '/timeUp',
+    component: TimeUp
   },
 ]
 
