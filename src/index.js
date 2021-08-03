@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import { renderRoutes } from 'react-router-config';
 
@@ -46,10 +46,10 @@ const routes = [
 ]
 
 ReactDOM.render(
-	<BrowserRouter>
+	<HashRouter>
 		<Container>
       {renderRoutes(routes)}
 		</Container>
-	</BrowserRouter>,
+	</HashRouter>,
 	document.getElementById('app')
 )
